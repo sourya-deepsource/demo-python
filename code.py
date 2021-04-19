@@ -52,9 +52,7 @@ def moon_chooser(moons=["europa", "callisto", "phobos"]):
 
 def get_users():
     raw = '"username") AS "val" FROM "auth_user" WHERE "username"="admin" --'
-    return User.objects.annotate(
-    val=RawSQL(raw, [])
-    )
+    return User.objects.annotate(val=RawSQL(raw, []))
 
 
 def tar_something():
