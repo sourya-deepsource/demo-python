@@ -1,2 +1,2 @@
 def foo():
-  breakpoint()
+  from . import x
