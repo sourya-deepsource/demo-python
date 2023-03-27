@@ -22,7 +22,7 @@
 
 This repository demonstrates sample issues in Python code raised by DeepSource.
 
-[![DeepSource](https://deepsource.io/gh/deepsourcelabs/demo-python.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/deepsourcelabs/demo-python/?ref=repository-badge)
+[![DeepSource](https://deepsource.io/gh/sourya-deepsource/demo-python.svg/?label=active+issues&show_trend=true&token=xkwcRiN1hk2uHiZQJoKWrQHC)](https://deepsource.io/gh/sourya-deepsource/demo-python/?ref=repository-badge)
 
 ### Report
 
