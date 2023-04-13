@@ -8,7 +8,6 @@ name = "python"
 
 [[analyzers]]
 name = "test-coverage"
-enabled = false
 
 [[transformers]]
 name = "black"
