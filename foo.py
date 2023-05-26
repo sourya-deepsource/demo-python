@@ -1,2 +1,2 @@
 def foo():
-    pass
+    from . import x
