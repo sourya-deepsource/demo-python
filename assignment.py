@@ -11,3 +11,5 @@ import that
 *FIRST, a, b = [1, 2, 3]
 
 SECOND = "dljfnjsdnfklsadfdsf"
+
+y = 2
