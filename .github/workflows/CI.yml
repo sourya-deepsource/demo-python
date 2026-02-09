@@ -36,4 +36,4 @@ jobs:
     - name: Report test coverage to DeepSource
       run: |
         curl https://deepsource.io/cli | sh
-        ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage.xml --use-oidc
+        ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage.xml
