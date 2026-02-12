@@ -1,5 +1,8 @@
 name: CI
 
+permissions:
+  id-token: write  # Required to get the OIDC token
+
 on:
   pull_request:
   push:

@@ -11,3 +11,9 @@ import that
 *FIRST, a, b = [1, 2, 3]
 
 SECOND = "dljfnjsdnfklsadfdsf"
+
+import nothing
+
+print("hello")
+def f(x=[]):
+  return x
