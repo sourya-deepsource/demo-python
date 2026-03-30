@@ -6,12 +6,13 @@ on:
       branches:
       - master
 
+
 jobs:
   run-tests:
     runs-on: [ubuntu-latest]
 
     env:
-        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
+        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN_ENTERPRISE }}
 
     steps:
     - name: Checkout code
@@ -28,9 +29,11 @@ jobs:
     - name: Run tests
       run: |
         pip install pytest-cov django
-        pytest --cov=./ --cov-report=xml
+        pytest --cov=./ --cov-report=xml --cov-branch
 
     - name: Report test coverage to DeepSource
       run: |
         curl https://deepsource.io/cli | sh
         ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage.xml
+
+
