@@ -9,3 +9,5 @@ def current_datetime(request):
     html = "<html><body>It is %s.</body></html>" % now
     print(now)
     return HttpResponse(html)
+
+
